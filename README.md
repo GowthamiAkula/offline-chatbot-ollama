@@ -93,26 +93,36 @@ Each response is evaluated on:
 ## ▶️ How to Run
 
 1. Install Ollama: [https://ollama.com](https://ollama.com)
+
 2. Pull model:
 
-   ```
-   ollama pull llama3.2:3b
-   ```
-3. Activate virtual environment:
+```
+ollama pull llama3.2:3b
+```
 
-   ```
-   source venv/Scripts/activate
-   ```
-4. Install dependencies:
+3. Create virtual environment:
 
-   ```
-   pip install requests datasets
-   ```
-5. Run chatbot:
+```
+python -m venv venv
+```
 
-   ```
-   python chatbot.py
-   ```
+4. Activate virtual environment:
+
+```
+source venv/Scripts/activate
+```
+
+5. Install dependencies:
+
+```
+pip install requests datasets
+```
+
+6. Run chatbot:
+
+```
+python chatbot.py
+```
 
 ---
 
@@ -124,25 +134,8 @@ Each response is evaluated on:
 
 ---
 
-## ⚠️ Limitations
-
-* No real-time order or database integration
-* Responses may vary due to probabilistic nature of LLMs
-* Slower performance on CPU-based systems
-
----
-
-## 🔮 Future Improvements
-
-* Integrate real-time backend (orders, tracking)
-* Use larger or fine-tuned models
-* Add web interface (UI)
-* Improve response consistency
-
----
-
 ## 👩‍💻 Author
 
-Gowthami Akula
+**Gowthami Akula**
 
 ---
